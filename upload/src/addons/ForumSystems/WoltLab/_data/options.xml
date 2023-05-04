@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="woltlab_enable_redirects" edit_format="onoff" data_type="boolean" advanced="0">
+    <default_value>0</default_value>
+    <relation group_id="woltlab_import" display_order="100"/>
+  </option>
+  <option option_id="woltlab_import_table" edit_format="callback" data_type="string" validation_class="ForumSystems\WoltLab\Option\ImportTable" validation_method="verifyOption" advanced="0">
+    <default_value></default_value>
+    <edit_format_params>ForumSystems\WoltLab\Option\ImportTable::renderOption</edit_format_params>
+    <relation group_id="woltlab_import" display_order="200"/>
+  </option>
+</options>

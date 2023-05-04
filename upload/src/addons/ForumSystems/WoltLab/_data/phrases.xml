@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="fs_following_users" version_id="1000070" version_string="1.0.0"><![CDATA[Following users]]></phrase>
+  <phrase title="fs_ignored_users" version_id="1000070" version_string="1.0.0"><![CDATA[Ignored users]]></phrase>
+  <phrase title="fs_to_import_avatars_and_attachments_you_must_provide_path_to_your_woltlab" version_id="1000070" version_string="1.0.0"><![CDATA[The full path to the folder containing images/ and attachments/ .. in most cases it is wcf/ or suite/]]></phrase>
+  <phrase title="fs_users_and_avatars" version_id="1000070" version_string="1.0.0"><![CDATA[Users and avatars]]></phrase>
+  <phrase title="option.woltlab_enable_redirects" version_id="1000070" version_string="1.0.0"><![CDATA[Enable redirects]]></phrase>
+  <phrase title="option.woltlab_import_table" version_id="1000070" version_string="1.0.0"><![CDATA[WoltLab import log table]]></phrase>
+  <phrase title="option_explain.woltlab_enable_redirects" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.woltlab_import_table" version_id="1000070" version_string="1.0.0"><![CDATA[Select the database table which holds information about your woltlab import. It will be used to aid with URL redirections.]]></phrase>
+  <phrase title="option_group.woltlab_import" version_id="1000070" version_string="1.0.0"><![CDATA[WoltLab import options]]></phrase>
+  <phrase title="option_group_description.woltlab_import" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="woltlab_wcf_path" version_id="1000070" version_string="1.0.0"><![CDATA[WCF path]]></phrase>
+</phrases>

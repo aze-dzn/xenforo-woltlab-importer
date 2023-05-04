@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="admin" title="fs_import_config_woltlab" version_id="1000070" version_string="1.0.0"><![CDATA[<h3 class="block-formSectionHeader">
+	<span class="block-formSectionHeader-aligner">
+		{{ phrase('source_database_configuration') }}
+	</span>
+</h3>
+
+<xf:macro template="import_config_macros" name="db_host"
+	value="{$db.host}"
+	arg-placeholder="$config['database']['hostname']" />
+
+<xf:macro template="import_config_macros" name="db_port"
+	arg-value="{$db.port}"
+	arg-placeholder="{{ phrase('default:') }} 3306" />
+
+<xf:macro template="import_config_macros" name="db_username"
+	arg-value="{$db.username}"
+	arg-placeholder="$config['database']['username']" />
+
+<xf:macro template="import_config_macros" name="db_password"
+	arg-placeholder="$config['database']['password']" />
+
+<xf:macro template="import_config_macros" name="db_dbname"
+	arg-placeholder="$config['database']['database']" />
+
+<xf:macro template="import_config_macros" name="db_tablePrefix"
+	arg-value="{$db.tablePrefix}"
+	arg-placeholder="$config['database']['table_prefix']" />
+
+<hr class="formRowSep" />
+
+
+<xf:textboxrow label="{{ phrase('woltlab_wcf_path') }}" name="config[uploads_path]" required="required"
+	explain="{{ phrase('fs_to_import_avatars_and_attachments_you_must_provide_path_to_your_woltlab') }}" />]]></template>
+  <template type="admin" title="fs_import_step_config_woltlab" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:if is="in_array('users', $steps)">
+	<h3 class="block-formSectionHeader">{{ phrase('users') }}</h3>
+	<xf:macro template="import_macros" name="step_users_config" arg-config="{$stepConfig.users}" />
+</xf:if>]]></template>
+  <template type="public" title="fs_import_step_config_woltlab" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:if is="in_array('users', $steps)">
+	<h3 class="block-formSectionHeader">{{ phrase('users') }}</h3>
+	<xf:macro template="import_macros" name="step_users_config" arg-config="{$stepConfig.users}" />
+</xf:if>]]></template>
+</templates>

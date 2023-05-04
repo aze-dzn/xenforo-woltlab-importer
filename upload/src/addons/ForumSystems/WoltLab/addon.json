@@ -1,0 +1,23 @@
+{
+    "legacy_addon_id": "",
+    "title": "WoltLab Burning Board/Suite (4/5) Importer and URL redirects",
+    "description": "Imports content, sets password scheme and automatically redirects old content to new content",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
+    "dev": "Kamal Saleh",
+    "dev_url": "https://xenforo.com/community/members/k-a-m-a-l.53732/",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": {
+        "XF": [
+            2020070,
+            "Xenforo 2.2.0+"
+        ],
+        "php": [
+            "7.2.0",
+            "PHP 7.2.0+"
+        ]
+    },
+    "icon": "fa-file-import"
+}

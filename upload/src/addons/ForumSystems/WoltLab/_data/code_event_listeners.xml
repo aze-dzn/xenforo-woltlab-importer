@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<code_event_listeners>
+  <listener event_id="app_pub_complete" execute_order="10" callback_class="ForumSystems\WoltLab\Listener" callback_method="appPubComplete" active="1"/>
+  <listener event_id="import_importer_classes" execute_order="10" callback_class="ForumSystems\WoltLab\Listener" callback_method="importImporterClasses" active="1"/>
+</code_event_listeners>
